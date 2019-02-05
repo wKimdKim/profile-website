@@ -1,6 +1,37 @@
+@import "../../variables.scss";
 .bg-img {
   background-image: url("../../assets/img/home-bg.jpeg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   min-height: 100vh;
+}
+.home-content {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 3em;
+  font-weight: bold;
+}
+.title {
+  font-size: 2em;
+}
+p,
+span {
+  color: white;
+}
+.contact {
+  a {
+    color: white;
+    font-size: 2em;
+    margin-right: 30px;
+  }
+  a:hover {
+    color: map-get($colors, my-blue);
+  }
 }
