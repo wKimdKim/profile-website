@@ -1,6 +1,6 @@
 .bg-img {
   background-image: url("../../assets/img/home-bg.jpeg");
-  -webkit-background-size: 100%;
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   min-height: 100vh;
 }
