@@ -18,6 +18,8 @@
   font-size: 1.5em;
 }
 .name {
+  display: block;
+  margin-bottom: 1%;
   font-size: 3em;
   font-weight: bold;
   color: map-get($colors, text-gray);
@@ -25,15 +27,16 @@
 .title {
   font-size: 1.5em;
   color: map-get($colors, text-gray);
-  border-top: solid gray;
-  border-bottom: solid gray;
-  border-width: 1.5px;
+  border-top: solid rgb(207, 207, 207);
+  border-bottom: solid rgb(207, 207, 207);
+  border-width: 1px;
 }
 p,
 span {
   color: white;
 }
 .contact {
+  margin-top: 3%;
   a {
     color: white;
     font-size: 2em;
