@@ -2,6 +2,7 @@
 .about {
   display: flex;
   flex-direction: column;
+  background-color: map-get($map: $colors, $key: primary);
 }
 .about-heading {
   display: flex;
