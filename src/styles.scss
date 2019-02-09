@@ -4,7 +4,9 @@
 @import "~bootswatch/dist/yeti/_bootswatch.scss";
 $fa-font-path: "../node_modules/font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
-
+body {
+  position: relative;
+}
 .container {
   padding: 5vh 3vw 5vh 3vw;
 }
