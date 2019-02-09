@@ -8,6 +8,7 @@ import { AboutComponent } from "./about/about.component";
 import { InterestComponent } from "./interest/interest.component";
 import { ContactComponent } from "./contact/contact.component";
 import { SkillComponent } from "./skill/skill.component";
+import { ScrollToModule } from "@nicky-lenaers/ngx-scroll-to";
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { SkillComponent } from "./skill/skill.component";
     ContactComponent,
     SkillComponent
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, ScrollToModule.forRoot()],
   providers: [],
   bootstrap: [AppComponent]
 })
