@@ -30,7 +30,7 @@ export class HeaderComponent implements OnInit {
             {
               scrollTop: $(hash).offset().top
             },
-            800,
+            700,
             function() {
               // Add hash (#) to URL when done scrolling (default click behavior)
               window.location.hash = hash;
