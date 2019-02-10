@@ -16,14 +16,17 @@
 }
 .hello-message {
   font-size: 1.5em;
+  color: color(primary);
+  font-style: italic;
 }
 .name {
   display: block;
   margin-bottom: 1%;
   font-size: 3em;
-  font-weight: bold;
-  color: color(text-gray);
+  // font-weight: bold;
+  color: color(primary);
   margin-bottom: 3px;
+  font-family: Impact, Charcoal, sans-serif;
 }
 .title {
   font-size: 1.2em;
@@ -31,6 +34,7 @@
   border-top: solid rgb(182, 181, 181);
   border-bottom: solid rgb(182, 181, 181);
   border-width: 1.2px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 p,
 span {
