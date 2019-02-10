@@ -2,7 +2,7 @@
 #about {
   display: flex;
   flex-direction: column;
-  background-color: map-get($map: $colors, $key: primary);
+  background-color: color(primary);
 }
 .about-heading {
   display: flex;
@@ -11,10 +11,20 @@
 .about-content {
   display: flex;
   flex-direction: row;
+  @include mobile {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .profile-pic {
   margin-right: 7%;
+  @include mobile {
+    margin-right: 0%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
 }
 img {
   width: 250px;
@@ -23,6 +33,9 @@ img {
 
 .about-detail {
   width: 67%;
+  @include mobile {
+    width: 100%;
+  }
 }
 
 .greeting {

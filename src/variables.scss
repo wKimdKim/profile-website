@@ -4,3 +4,15 @@ $colors: (
   my-blue: #5491f2,
   text-gray: #d6d5d5
 );
+
+$mobile: 840px;
+
+@function color($color-name) {
+  @return map-get($map: $colors, $key: $color-name);
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile}) {
+    @content;
+  }
+}

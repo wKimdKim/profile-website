@@ -1,32 +1,44 @@
-/* Make sure that padding behaves as expected */
+@import "../../variables.scss";
+
 * {
   box-sizing: border-box;
 }
 
-/* Container for skill bars */
+#skill {
+  background-color: color(secondary);
+}
+
 .bar-container {
-  width: 100%; /* Full width */
+  width: 100%;
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding: 10px; /* Add some padding */
-  color: white; /* White text color */
+  text-align: right;
+  padding: 10px;
+  color: white;
 }
 
-.html {
-  width: 90%;
-  background-color: #4caf50;
-} /* Green */
-.css {
-  width: 80%;
-  background-color: #2196f3;
-} /* Blue */
-.js {
-  width: 65%;
-  background-color: #f44336;
-} /* Red */
-.php {
+.html-css {
   width: 60%;
+  background-color: #4caf50;
+}
+.js {
+  width: 40%;
+  background-color: #2196f3;
+}
+.java {
+  width: 60%;
+  background-color: #f44336;
+}
+.csharp {
+  width: 70%;
+  background-color: rgb(218, 218, 95);
+}
+.python {
+  width: 70%;
+  background-color: #16d9fc;
+}
+.git {
+  width: 30%;
   background-color: #808080;
-} /* Dark Grey */
+}

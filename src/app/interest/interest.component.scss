@@ -1,4 +1,4 @@
 @import "../../variables.scss";
 .interest {
-  background-color: map-get($colors, secondary);
+  background-color: color(secondary);
 }
